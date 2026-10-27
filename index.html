@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f9dfe7">
+  <title>All About You ♡</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Pacifico&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="floating-decor decor-one">♡</div>
+  <div class="floating-decor decor-two">✧</div>
+  <div class="floating-decor decor-three">🎀</div>
+
+  <main>
+
+    <!-- PAGE 1: THE SURPRISE -->
+    <section class="page active" id="page1">
+      <div class="sticker sticker-top">୨୧</div>
+      <div class="envelope">💌</div>
+      <p class="eyebrow">a tiny little something for you</p>
+      <h1 class="script-title">heyy... you!</h1>
+      <p class="subtitle">someone made a little corner of the internet just for you ♡</p>
+
+      <button class="main-button" id="surpriseBtn">
+        open your tiny surprise <span>♡</span>
+      </button>
+
+      <div class="surprise-message" id="surpriseMessage" hidden>
+        <div class="big-heart">💗</div>
+        <h2>hehe, got you!</h2>
+        <p>you are the reason behind this little world.</p>
+        <p class="handwritten">made with lots of love, just for you 🎀</p>
+        <button class="next-button" data-next="2">enter your little world →</button>
+      </div>
+
+      <p class="tiny-footer">♡ a little website, a whole lot of love ♡</p>
+    </section>
+
+
+    <!-- PAGE 2: HIS PHOTOS & VIDEOS -->
+    <section class="page" id="page2">
+      <p class="eyebrow">the main character of my little world</p>
+      <h1 class="script-title">The Boy Behind My Smile</h1>
+      <p class="subtitle">a collection of my favourite little things about you ♡</p>
+
+      <div class="marquee" aria-label="Scrolling love messages">
+        <div class="marquee-track">
+          <span>my favourite boy ♡ just being you ✧ cutest human ever ♡</span>
+          <span>my favourite boy ♡ just being you ✧ cutest human ever ♡</span>
+        </div>
+      </div>
+
+      <div class="scrapbook">
+        <!-- PHOTO 1: replace with your boyfriend's photo -->
+        <figure class="polaroid tilt-left">
+          <img src="images2/him1.jpeg" alt="My favourite boy, photo one">
+          <figcaption>this face >>> ♡</figcaption>
+          <span class="tape"></span>
+        </figure>
+
+        <!-- PHOTO 2: replace with your boyfriend's photo -->
+        <figure class="polaroid tilt-right">
+          <img src="images/him2.jpeg" alt="My favourite boy, photo two">
+          <figcaption>how are you even real?</figcaption>
+          <span class="heart-sticker">♡</span>
+        </figure>
+
+        <!-- VIDEO 1: add your own video file -->
+        <div class="video-card">
+          <span class="mini-label">little memory no. 01</span>
+          <video controls playsinline preload="metadata">
+            <source src="video1/WhatsApp Video 2026-10-26 at 1.25.21 AM.mp4" type="video/mp4">
+            Your browser does not support video.
+          </video>
+          <p>him, being him 🎬</p>
+        </div>
+
+        <!-- VIDEO 2: add your own video file -->
+        <div class="video-card">
+          <span class="mini-label">little memory no. 02</span>
+          <video controls playsinline preload="metadata">
+            <source src="video1/WhatsApp Video 2026-10-27 at 7.28.09 PM.mp4" type="video/mp4">
+            Your browser does not support video.
+          </video>
+          <p>one more moment to keep ♡</p>
+        </div>
+      </div>
+
+      <div class="cute-note">if cuteness was a crime, you'd be in trouble ♡</div>
+      <button class="next-button" data-next="3">next little chapter →</button>
+      <button class="back-button" data-next="1">← go back</button>
+    </section>
+
+
+    <!-- PAGE 3: YOUR TWO PHOTOS + SONG -->
+    <section class="page" id="page3">
+      <p class="eyebrow">you + me = my favourite story</p>
+      <h1 class="script-title">A Thousand Years ♡</h1>
+      <p class="subtitle">if I had to choose a thousand times, I'd still choose you.</p>
+
+      <div class="couple-gallery">
+        <!-- COUPLE PHOTO 1 -->
+        <figure class="polaroid couple-photo tilt-left">
+          <img src="images/us1.jpeg" alt="Our first favourite photo">
+          <figcaption>my favourite kind of us ♡</figcaption>
+          <span class="tape"></span>
+        </figure>
+
+        <!-- COUPLE PHOTO 2 -->
+        <figure class="polaroid couple-photo tilt-right">
+          <img src="images2/us2.jpeg" alt="Another special photo of us">
+          <figcaption>you feel like home</figcaption>
+          <span class="heart-sticker">💗</span>
+        </figure>
+      </div>
+
+      <div class="music-card">
+        <div class="music-art">♡</div>
+        <div class="music-info">
+          <p class="mini-label">our little soundtrack</p>
+          <h3>A Thousand Years</h3>
+          <p>Christina Perri</p>
+          <audio controls preload="metadata">
+            <source src="audio1/Christina_Perri_-_Thousand_years_(mp3.pm).mp3" type="audio/mpeg">
+            Your browser does not support audio.
+          </audio>
+        </div>
+        <span class="music-sparkle">✧</span>
+      </div>
+
+      <p class="handwritten music-note">this song, these pictures, you & me ♡</p>
+
+      <button class="next-button" data-next="4">one more thing, my love →</button>
+      <button class="back-button" data-next="2">← go back</button>
+    </section>
+
+
+    <!-- PAGE 4: A LITTLE LETTER -->
+    <section class="page" id="page4">
+      <div class="letter-decoration">💌</div>
+      <p class="eyebrow">a little note from my heart</p>
+      <h1 class="script-title">Dear You, ♡</h1>
+
+      <article class="letter-card">
+        <span class="letter-heart">♡</span>
+        <p>
+          You are such a beautiful part of my life, and meeting you
+          has changed so many little things for the better. You've
+          brought me new memories, new feelings, and moments that
+          I'll always hold close to my heart. You are more than just
+          someone I love — you are one of the best parts of my story.
+          I'm so grateful that our paths crossed, and I hope you
+          always remember how special you are to me. ♡
+        </p>
+        <p class="letter-signature">always cheering for you,</p>
+        <p class="script-title signature">your girl 🎀</p>
+      </article>
+
+      <div class="little-stickers">
+        <span>🎀</span><span>♡</span><span>🧸</span><span>✧</span>
+      </div>
+
+      <button class="next-button" data-next="5">okay, last page... ♡</button>
+      <button class="back-button" data-next="3">← go back</button>
+    </section>
+
+
+    <!-- PAGE 5: CUTE GOODBYE -->
+    <section class="page" id="page5">
+      <div class="bye-stickers">
+        <span>🎀</span><span>♡</span><span>✧</span>
+      </div>
+
+      <p class="eyebrow">and that's the end of our tiny tour...</p>
+      <h1 class="script-title goodbye-title">Okk byeee,<br>byeee puchuuu!!</h1>
+
+      <!-- GIF PLACEHOLDER: add your cute GIF as images/bye-bye.gif -->
+      <div class="gif-frame">
+        <img src="images/bye-bye.gif" alt="A cute waving goodbye animation"
+             onerror="this.style.display='none'; this.nextElementSibling.hidden=false;">
+        <div class="gif-fallback" hidden>
+          🧸💗<br><span>mwah! bye bye ♡</span>
+        </div>
+      </div>
+
+      <p class="subtitle">sending you a million tiny virtual hugs & kisses ♡</p>
+      <p class="handwritten">don't forget to smile, okay?</p>
+
+      <button class="main-button" id="replayBtn">visit your little world again ↻</button>
+      <p class="tiny-footer">made with ♡, just for you.</p>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
